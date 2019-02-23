@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <title>Formulaire_concours</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="canonical" href=""/>
+</head>
+<body>
+<div class="site_wrapper">
+    <div class="site_body">
+        <header>
+            <div class="header_wrapper">
+                <div class="header_body">
+                    <div class="hashtag_block">
+                        <!--<i class="fa fa-hashtag"></i>-->
+                        #GVQ<span class="hashtag_part">mon</span>VOYAGE
+                    </div>
+                    <div class="photo_block">
+                        <img class="photo_img" src="img/photo-img.png" alt="photo-img"/>
+                    </div>
+                    <div class="contest_block">
+                        <img class="contest_img" src="img/concours-img.png" alt="contest-img"/>
+                    </div>
+                    <div class="title_block">
+                        <img class="title_img" src="img/header-title.png" alt="title-img"/>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="main_wrapper">
+                <div class="content_text">
+                    Remplissez le formulaire ci-dessous et joignez votre meilleure photo prise lors de votre voyage avec
+                    GVQ et courez la chance de gagner un crédit-voyage de 500$* sur votre prochain voyage, un Guides
+                    Voir de votre choix, et la chance de voir votre photo dans notre brochure édition Été-Automne 2018.
+                </div>
+                <form class="form" id="form">
+                    <div class="form_body">
+                        <div class="form_input-block">
+                            <!--<input type="text" id="catch" style="position:absolute;visibility:hidden"/>-->
+                            <label for="name"></label>
+                            <input type="text" name="name" id="name" placeholder="Nom*" class="form_input" required="required"/>
+                        </div>
+                        <div class="form_input-block">
+                            <!--<input type="text" id="catch" style="position:absolute;visibility:hidden"/>-->
+                            <label for="surName"></label>
+                            <input type="text" name="surName" id="surName" placeholder="Prénom*" class="form_input" required="required"/>
+                        </div>
+                        <div class="form_input-block">
+                            <!--<input type="text" id="catch" style="position:absolute;visibility:hidden"/>-->
+                            <label for="tel"></label>
+                            <input type="tel" name="tel" id="tel" placeholder="Téléphone*" class="form_input" required="required"/>
+                        </div>
+                        <div class="form_input-block">
+                            <!--<input type="text" id="catch" style="position:absolute;visibility:hidden"/>-->
+                            <label for="email"></label>
+                            <input type="email" name="email" id="email" placeholder="Courriel*" class="form_input" required="required"/>
+                        </div>
+                        <div class="form_input-block">
+                            <!--<input type="text" id="catch" style="position:absolute;visibility:hidden"/>-->
+                            <label for="postIndex"></label>
+                            <input type="text" name="postIndex" id="postIndex" placeholder="Code postal*" class="form_input" required="required"/>
+                        </div>
+                    </div>
+                    <div class="form_select-block">
+                        <div class="select_title">
+                            Avez-vous déjà voyagé avec Groupe Voyages Québec?
+                        </div>
+                        <div class="select_menu">
+                            Non
+                            <img class="select_arrow" src="img/select_arrow-img.png" alt="arrow"/>
+                        </div>
+                        <div class="drop_down-menu">
+                            <ul class="drop_down-ul">
+                                <li class="drop_down-li">service 1</li>
+                                <li class="drop_down-li">service 2</li>
+                                <li class="drop_down-li">service 3</li>
+                                <li class="drop_down-li">service 4</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="form_select-block form_select-block-two">
+                        <div class="select_title">
+                            Quel était votre destination?
+                        </div>
+                        <div class="select_menu select_menu-two">
+                            Faites votre choix
+                            <img class="select_arrow select_arrow-two" src="img/select_arrow-img.png" alt="arrow"/>
+                        </div>
+                        <div class="drop_down-menu drop_down-menu-two">
+                            <ul class="drop_down-ul">
+                                <li class="drop_down-li">service 1</li>
+                                <li class="drop_down-li">service 2</li>
+                                <li class="drop_down-li">service 3</li>
+                                <li class="drop_down-li">service 4</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="form_file-block">
+                        <label for="form_file" class="form_file">Joindre un fichier</label>
+                        <input type="file" id="form_file" name="form_file" class="form_file-hidden"/>
+                        <div class="file_title">
+                            Téléchargez votre photo
+                            <span class="file_title-span">Résolution minimum de 300 DPI, poids minimum: 1Mo, poids maximum: 6 Mo.</span>
+                        </div>
+                    </div>
+                    <div class="checkbox_wrapper">
+                        <div class="checkbox_body">
+                            <label for="checkbox_first" class="checkbox_content">
+                                <input class="checkbox" name="checkbox_first" id="checkbox_first" type="checkbox"/>
+                                <div class="checkbox_block"></div>
+                                <span class="checkbox_text">Acceptation</span>
+                            </label>
+                            <div class="checkbox_info">
+                                J'ai lu, j'ai compris et j'accepte le règlement de participation.
+                                <a class="checkbox_link" href="#">Lire les réglements</a>
+                            </div>
+                        </div>
+                        <div class="checkbox_body">
+                            <label for="checkbox_two" class="checkbox_content">
+                                <input class="checkbox" name="checkbox_two" id="checkbox_two" type="checkbox"/>
+                                <div class="checkbox_block"></div>
+                                <span class="checkbox_text">Inspirez-moi !</span>
+                            </label>
+                            <div class="checkbox_info">
+                                Je désire recevoir gratuitement des communications courriel incluant des offres
+                                promotionnelles et de l’information relative aux produits de voyages de Groupe Voyages
+                                Québec et de ses partenaires affiliés.
+                                <span class="checkbox_span">Il est possible de retirer son consentement à tout moment.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="question_block">
+                        Question mathématique : (100x4) + (100x2) - 50 =
+                        <span class="response"></span>
+                    </div>
+                    <div class="button_wrapper">
+                        <button class="button_submit" type="submit">PARTICIPER AU CONCOURS</button>
+                    </div>
+                    <div class="form_info">
+                        *Sur l’ensemble des produits offerts par GVQ. <br/>
+                        Détails et règlements disponibles en succursale ou au <a class="form_info-link" href="#">gvq.ca/concours</a>.
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer></footer>
+    </div>
+</div>
+
+<script src="js/common.js"></script>
+</body>
+</html>
